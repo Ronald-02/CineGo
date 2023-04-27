@@ -1,0 +1,85 @@
+.container .title {
+    color: #000;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0 1rem;
+  }
+  
+  .title .query-text {
+    color: rgba(27, 27, 27, 0.938);
+  }
+  
+  .movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .movies-container div {
+    width: 30%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.959);
+    padding: 1rem;
+  }
+  
+  .movies-container div img {
+    max-width: 100%;
+  }
+  
+  .movies-container div img,
+  .movies-container div p {
+    margin-bottom: 1rem;
+  }
+  
+  .movies-container div h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .movies-container div svg {
+    color: #000;
+  }
+  
+  .movies-container div a {
+    background-color: #bfd30e;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: rgba(57, 56, 56, 0.481);
+    padding: 1rem 0.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .movies-container div a:hover {
+    background-color: transparent;
+    color: rgba(171, 168, 168, 0.775);
+  }
+
+
+
+@media screen and (max-width:700px) {
+    div.container{
+        width: auto;
+    }
+    html{
+      width: 150%;
+    }
+    
+    div.app-container{
+      margin-bottom: 0;
+      padding: 0;
+  }
+
+    h2{
+        font-size:larger;
+    }
+    a{
+        font-size: small;
+    }
+}
