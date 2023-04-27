@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import MovieCard from "../components/MovieCard";
+import MovieCard from "../components/moviecard.jsx";
 import "./moviesGrid.css";
 
 const moviesURL = import.meta.env.VITE_API;
